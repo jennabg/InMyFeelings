@@ -13,7 +13,7 @@
     <ul>
       <li><a href="#"> HOME </a></li>
       <li><a href="#"> ABOUT </a></li>
-      <li><a href="#"> RANDOM! </a></li>
+      <li><a href="#"> RANDOM </a></li>
     </ul>
   </nav>
   <main id="main">
