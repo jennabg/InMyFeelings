@@ -1,0 +1,156 @@
+body {
+ font-family: 'Judson', serif;
+ font-size:16px;
+ margin:0;
+}
+
+h1, h2{
+ font-family: 'Archivo Black', sans-serif;
+ color:#D6DF25;
+ text-align: center;
+}
+p{
+  color:black;
+}
+
+#nav{
+  background-color: #4B397F;
+  margin: 0;
+  padding-top:10px;
+}
+#logo{
+  display:inline-block;
+  width:5%;
+  height:auto;
+  padding-left:15px;
+  vertical-align: middle;
+}
+#nav ul{
+  list-style: none;
+  padding:0;
+  margin:0;
+  display:inline-block;
+}
+
+#nav li{
+  display: inline-block;
+  padding:1em;
+  font-family:'Archivo Black', sans-serif;
+}
+
+#nav li a{
+  color:#44C2C9;
+  text-decoration: none;
+
+}
+
+
+#nav li a:hover{
+  color:#F15C44;
+  -webkit-transition: border 0.5s ease;
+ -moz-transition: border 0.5s ease;
+ -o-transition: border 0.5s ease;
+ transition: border 0.5s ease;
+
+  border-bottom:5px solid #F15C44;
+}
+
+#main{
+  margin:10px;
+}
+input{
+  width:50%;
+  height:50px;
+  margin:10px auto;
+  display: block;
+  border:5px solid #D6DF25;
+  /* background-color:#D6DF25;
+  color:white; */
+  font-size: 2em;
+}
+
+button{
+  width:30%;
+  padding:0.75em;
+  margin:0 auto;
+  display: block;
+  background-color:#D6DF25;
+  color:#F15B43;
+  font-family: 'Archivo Black', sans-serif;
+  font-size:1.3em;
+}
+
+button:hover{
+  background-color:#44C2C9;
+  color: #4B397F;
+}
+
+#background{
+  min-height: 500px;
+  /* background-image: linear-gradient(to bottom, #72B7E0,  #d4a656, #e16e79); */
+  padding:2em;
+
+
+
+}
+
+#results{
+  flex-flow:row wrap;
+  display:-webkit-box;
+  display:-moz-box;
+  display:-ms-flexbox;
+  display:-webkit-flex;
+  display:flex;
+  color:red;
+}
+
+#emotionresult{
+  flex: 100%;
+  background-color:#ECF09B;
+  margin-top:10px;
+  border-radius: 10px;
+}
+#emotionresult img{
+  width:50px;
+  height:auto;
+
+}
+
+#emotionresult p{
+  display:block;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom:10px;
+
+}
+
+#bookresult, #movieresult{
+  flex: 1 0 0;
+  background-color:#ECF09B;
+  margin:20px;
+  border-radius: 10px;
+
+}
+#bookresult h2, #movieresult h2{
+  color:#F15B43;
+
+}
+
+
+img{
+  width:30%;
+  height:auto;
+  display:block;
+  margin:10px auto;
+}
+
+#footer{
+    background-color: #4B397F;
+}
+
+#footer p{
+  color:white;
+  padding:10px;
+  margin:0 auto;
+  text-align: center;
+}
