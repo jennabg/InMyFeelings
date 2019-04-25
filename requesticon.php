@@ -4,7 +4,7 @@
 
   $cc_key  = "24a5bab9127240e2a9f6f4fb7be52c6d";
   $cc_secret = "9a003f8b4f5d4d8cabc73dc9360d0e96";
-  $url = "http://api.thenounproject.com/icons/" . $_POST['search'];
+  $url = "https://cors-anywhere.herokuapp.com/http://api.thenounproject.com/icons/" . $_POST['search'];
   $args = array();
   $args["limit"] = 10;
 
