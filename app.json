@@ -1,6 +1,6 @@
 {
-  "name": "Start on Heroku: PHP",
-  "description": "A barebones PHP app that makes use of the Silex web framework",
+  "name": "XML Final Project",
+  "description": "Using different APIs to get book and movie recommendations based on how a user is feeling",
   "repository": "https://github.com/heroku/php-getting-started",
   "addons": []
 }
