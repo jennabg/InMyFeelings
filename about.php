@@ -9,7 +9,7 @@
   <nav id="nav">
     <img id="logo" src="images/logo.png" alt="question mark logo" />
     <ul>
-      <li><a href="#"> HOME </a></li>
+      <li><a href="index.php"> HOME </a></li>
       <li><a href="about.php"> ABOUT </a></li>
     </ul>
   </nav>
