@@ -2,6 +2,7 @@ body {
  font-family: 'Judson', serif;
  font-size:16px;
  margin:0;
+ background-color: #F0F4EF;
 }
 
 h1, h2{
@@ -30,17 +31,29 @@ p{
   padding:0;
   margin:0;
   display:inline-block;
+  float: right;
 }
+
+#nav span{
+  font-family:'Archivo Black', sans-serif;
+  color:#44C2C9;
+  font-size:1.2em;
+  padding-left:0.5em;
+}
+
+
 
 #nav li{
   display: inline-block;
-  padding:1em;
+  padding:1.3em;
   font-family:'Archivo Black', sans-serif;
+  color:#44C2C9;
 }
 
 #nav li a{
   color:#44C2C9;
   text-decoration: none;
+  text-align: right;
 
 }
 
@@ -58,6 +71,43 @@ p{
 #main{
   margin:10px;
 }
+#sitedescription{
+  /* background-color: #D6DF25;
+  border-top: 10px solid #4B397F; */
+  display:-webkit-box;
+  display:-moz-box;
+  display:-ms-flexbox;
+  display:-webkit-flex;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.flex-1 {
+  flex: 1 0 0;
+}
+.flex-2{
+  flex: 4 0 0;
+}
+
+#feelingimg{
+  display:block;
+  width:70%;
+  height:auto;
+  margin:10px;
+  padding:10px;
+}
+
+#sitedescription p{
+  font-size: 1.5em;
+  vertical-align: middle;
+  align-content: center;
+  font-family:'Archivo Black', sans-serif;
+  color:#44C2C9;
+}
+
+
 input{
   width:50%;
   height:50px;
@@ -75,15 +125,21 @@ button{
   margin:0 auto;
   display: block;
   background-color:#D6DF25;
-  color:#F15B43;
+  color:white;
   font-family: 'Archivo Black', sans-serif;
   font-size:1.3em;
+  background: linear-gradient(to right, #44C2C9 50%, #D6DF25 50% );
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
 }
 
 button:hover{
-  background-color:#44C2C9;
-  color: #4B397F;
+  background-position: left bottom;
+  cursor: pointer;
 }
+
+
 
 #background{
   min-height: 500px;
@@ -101,12 +157,12 @@ button:hover{
   display:-ms-flexbox;
   display:-webkit-flex;
   display:flex;
-  color:red;
+  /* background-color:#ECF09B; */
 }
 
 #emotionresult{
   flex: 100%;
-  background-color:#ECF09B;
+
   margin-top:10px;
   border-radius: 10px;
 }
@@ -126,7 +182,7 @@ button:hover{
 
 #bookresult, #movieresult{
   flex: 1 0 0;
-  background-color:#ECF09B;
+
   margin:20px;
   border-radius: 10px;
 
@@ -138,8 +194,8 @@ button:hover{
 
 
 img{
-  width:30%;
-  height:auto;
+  height:200px;
+  width:auto;
   display:block;
   margin:10px auto;
 }

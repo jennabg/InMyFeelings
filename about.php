@@ -8,6 +8,7 @@
 <body>
   <nav id="nav">
     <img id="logo" src="images/logo.png" alt="question mark logo" />
+    <span> Find My Feeling! </span>
     <ul>
       <li><a href="index.php"> HOME </a></li>
       <li><a href="about.php"> ABOUT </a></li>

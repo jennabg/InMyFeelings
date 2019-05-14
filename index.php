@@ -10,6 +10,7 @@
 <body>
   <nav id="nav">
     <img id="logo" src="images/logo.png" alt="question mark logo" />
+    <span> Find My Feeling! </span>
     <ul>
       <li><a href="#"> HOME </a></li>
       <li><a href="about.php"> ABOUT </a></li>
@@ -17,6 +18,14 @@
   </nav>
   <main id="main">
     <div id="background">
+      <div id="sitedescription">
+        <div class="flex-1">
+        <img id="feelingimg" src="images/feelings-02.png" alt="icons of a book, a movie and a happy and sad face" />
+      </div>
+      <div class="flex-2">
+        <p>Tell us how you’re feeling today and we’ll recommend some pieces of entertainment based on your mood </p>
+      </div>
+    </div>
       <h1> What are you feeling? </h1>
       <input type="text" id="feeling"/>
       <button id="submit" type="button"> Find my feeling! </button>
