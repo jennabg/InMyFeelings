@@ -7,8 +7,8 @@
 </head>
 <body>
   <nav id="nav">
-    <img id="logo" src="images/logo.png" alt="question mark logo" />
-    <span> Find My Feeling! </span>
+    <a href="index.php"><img id="logo" src="images/logo.png" alt="question mark logo" /></a>
+    <span> In My Feelings! </span>
     <ul>
       <li><a href="index.php"> HOME </a></li>
       <li><a href="about.php"> ABOUT </a></li>

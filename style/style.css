@@ -71,9 +71,9 @@ p{
 #main{
   margin:10px;
 }
-#sitedescription{
-  /* background-color: #D6DF25;
-  border-top: 10px solid #4B397F; */
+/* #sitedescription{
+  background-color: #D6DF25;
+  border-top: 10px solid #4B397F;
   display:-webkit-box;
   display:-moz-box;
   display:-ms-flexbox;
@@ -81,8 +81,7 @@ p{
   display:flex;
   flex-direction: row;
   align-items: center;
-
-}
+} */
 
 .flex-1 {
   flex: 1 0 0;
@@ -93,20 +92,30 @@ p{
 
 #feelingimg{
   display:block;
-  width:70%;
+  width:20%;
   height:auto;
-  margin:10px;
-  padding:10px;
+  margin:10px auto;
 }
 
 #sitedescription p{
-  font-size: 1.5em;
-  vertical-align: middle;
-  align-content: center;
+  font-size: 1.3em;
+  width:50%;
+  margin:0 auto;
+  padding-bottom:30px;
+  text-align: center;
   font-family:'Archivo Black', sans-serif;
-  color:#44C2C9;
+  color:#4B3A80;
 }
 
+#search{
+  background-color:#F2F2E2;
+  width:75%;
+  padding:1em;
+  margin:0 auto;
+  -webkit-box-shadow: 18px 13px 16px -18px rgba(79,79,79,1);
+  -moz-box-shadow: 18px 13px 16px -18px rgba(79,79,79,1);
+  box-shadow: 18px 13px 16px -18px rgba(79,79,79,1);
+}
 
 input{
   width:50%;
@@ -144,7 +153,7 @@ button:hover{
 #background{
   min-height: 500px;
   /* background-image: linear-gradient(to bottom, #72B7E0,  #d4a656, #e16e79); */
-  padding:2em;
+  padding:1em;
 
 
 
